@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Catamaran', sans-serif;
+}
+
+video {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+}
+
+#countDown {
+    font-size: 25px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    background: rgba(134, 154, 188, 0.712);
+    background: linear-gradient(90deg, rgba(134, 154, 188, 0.685) 0%, rgba(55, 100, 128, 0.733) 100%);
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    text-align: center;
+}
+
+#container_audio {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#container_back {
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+#container_start {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    color: #fff;
+    background: rgba(134, 154, 188, 0.712);
+    background: linear-gradient(90deg, rgba(134, 154, 188, 0.685) 0%, rgba(55, 100, 128, 0.733) 100%);
+    font-size: 23px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-family: 'Catamaran', sans-serif;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    text-align: center;
+    }

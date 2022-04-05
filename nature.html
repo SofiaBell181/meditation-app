@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NATURE</title>
+    <link rel="stylesheet" href="nature.css">
+    <link rel="icon" href="lotus.ico.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div id="container">
+        <p id="countDown">Relax...</p>
+    </div>
+
+    <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline id="myVideo">
+        <source src="forest.mp4" type="video/mp4">
+    </video>
+
+    <div id="container_audio">
+        <audio id="player" autoplay="autoplay" loop="loop" controls>
+            <source src="Austin_Farwell.mp3" type="audio/mp3">
+        </audio>
+    </div>
+
+    <div id="container_start">
+        <button id="btnStart">START</button>
+    </div>
+
+    <div id="container_back">
+        <a href="/index.html"><img src="back.png" width="30px" alt="Back button"></a>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script> 
+    <script src="nature.js"></script>
+</body>
+</html>
