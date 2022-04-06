@@ -51,6 +51,7 @@ function calculate() {
 
     function stopTimer() {
         clearInterval(timeID);
+        document.querySelector('#player').pause();
     }
 
 } 
